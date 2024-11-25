@@ -24,7 +24,7 @@ function App() {
     // restful api
     /**
      * GET http://localhost:8080/api/v1/todos
-     * GET http://localhost:8080/api/v1/todos/     *
+     * GET http://localhost:8080/api/v1/todos/1
      */
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
